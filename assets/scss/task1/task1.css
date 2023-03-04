@@ -1,0 +1,121 @@
+#all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#all .upload-part {
+  width: 700px;
+  height: 400px;
+  background-color: azure;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+#all .upload-part span {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  left: 30px;
+  top: 25px;
+}
+
+#all .upload-part input {
+  width: 20px;
+  height: 200px;
+}
+
+#all .upload-part .upload {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  bottom: 20px;
+  left: 280px;
+}
+
+#all .upload-part .upload:hover {
+  color: #50585f;
+}
+
+#all .drag-part {
+  width: 650px;
+  height: 270px;
+  background-color: rgba(240, 240, 240, 0.4);
+  position: relative;
+  bottom: 290px;
+  border: 1px dashed #a0a0a0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#all .drag-part span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  height: 100%;
+  cursor: pointer;
+  color: gray;
+}
+
+#all .drag-part .dragover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#all .drag-part .dragover .on-drop {
+  display: inline;
+  font-size: 28px;
+}
+
+#all .hover-part {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-color: white !important;
+  border: 1px solid white !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#all .hover-part span {
+  color: black !important;
+}
+
+#all img {
+  width: 100px;
+  height: 100px;
+}
+
+#all tr i {
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+}
+/*# sourceMappingURL=task1.css.map */

@@ -1,0 +1,82 @@
+// .item{
+//     width: 100px;
+//     height: 100px;
+//     display: inline-block;
+// }
+
+// #elem1{
+//     background-color: blue;
+// }
+
+// #elem2{
+//     background-color: magenta;
+//     top: 206px;
+//     left: 600px;
+// }
+
+// #elem3{
+//     background-color: black;
+//     top: 400px;
+//     left: 390px;
+// }
+
+// #elem4{
+//     background-color: aqua;
+//     top: 606px;
+//     left: 200px;
+// }
+
+// #elem5{
+//     background-color: green;
+//     top: 506px;
+//     left: 600px;
+// }
+
+// .drop-elem{
+//     width: 500px;
+//     height: 500px;
+//     background-color: blanchedalmond;
+//     margin-top: 100px;
+//     margin-left: 200px;
+// }
+
+
+.upload-part{
+    width: 300px;
+    height: 300px;
+    border: 2px dotted black;
+    background-color: aquamarine;
+    position: relative;
+    left: 35%;
+    input{
+        width: 200px;
+        height: 200px;
+    }
+    .upload{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    .upload:hover{
+        color: rgb(80, 88, 95);
+    }
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+tr i{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+tr i:hover{
+    color: rgb(179, 37, 37);
+}

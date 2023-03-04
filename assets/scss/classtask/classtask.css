@@ -1,0 +1,52 @@
+.upload-part {
+  width: 300px;
+  height: 300px;
+  border: 2px dotted black;
+  background-color: aquamarine;
+  position: relative;
+  left: 35%;
+}
+
+.upload-part input {
+  width: 200px;
+  height: 200px;
+}
+
+.upload-part .upload {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 110px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.upload-part .upload:hover {
+  color: #50585f;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+tr i {
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+tr i:hover {
+  color: #b32525;
+}
+/*# sourceMappingURL=classtask.css.map */
